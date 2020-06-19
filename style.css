@@ -1,0 +1,189 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#kontener{
+    width: 1920px;
+    height: 1920px;
+    left: 0px;
+    top: 0px;
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    flex-wrap: wrap;
+}
+#menu{
+    position: fixed;
+    width: 1920px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background:white;
+    z-index: 2;
+    display:flex;
+}
+.button:hover{
+    background-color:f2f2f2;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: ;
+    background-color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    height:120px;
+    position:relative;
+}
+
+#kontentm{
+    position: relative;
+    width: 1920px;
+    height: 900px;
+    background: #F1EEEE;
+    text-align: center;
+    margin-top: 120px;
+    overflow: hidden;
+    vertical-align: center;
+    
+}
+#cytat{
+    position:absolute;
+    z-index:1;
+    margin-top:18%;
+    margin-left:32%;
+    font-size:20px;
+}
+.warzywka{
+  transform: rotate(272deg);
+    position: relative;
+    left:35%;
+    margin-top:32px;
+}
+
+#gallery{
+    position: relative;
+    width: 1920px;
+    height: 700px;
+    background-image: url("drewno.jpg");
+    z-index: 0;
+    align-content: center;
+    text-align:center;
+}
+.fotki{
+    width:340px;
+    height:340px;
+    padding: 50px;
+    transition: transform .2s;
+    position:relative;
+    margin-top:6%;     
+}
+.fotki:hover{
+    transform: scale(1.5);
+    
+}
+#foot{
+    position:relative;
+    width: 1920px;
+    height: 200px;
+    text-align: center;
+    background:white;
+    justify-content: center;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.165em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #B5B5B5;
+}
+
+#kontento{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 2;
+    margin-top:170px;
+    grid-row-gap: 150px;
+    grid-column-gap:100px;
+    margin-left:2%;
+
+}
+.bruh{
+    width:600px;
+    height:800px;
+    position:relative;
+}
+.fotonas{
+    width:600px;
+    height:800px;
+    align-self: center;
+}
+#kontentme{
+    display:grid;
+    grid-template-columns:[line]2% [line2]40% [line3]40%[line4]2%;
+    grid-column-gap: 5%;
+    grid-template-rows: auto;
+    margin-top:170px;
+   
+}
+.menuitemw{
+    grid-column-start:line2;
+    grid-column-end: line3;
+    }
+#menuitemo{
+    grid-column-start:line3;
+    grid-column-end: line4;
+}
+#kontakt{
+    
+    display:grid;
+    grid-template-columns:[line]2% [line2]40% [line3]40%[line4]2%;
+    grid-column-gap: 5%;
+    margin-top:170px;
+}
+.mapa{
+    grid-column-start:line2;
+    grid-column-end: line4;
+}
+.aj{
+    
+    grid-column-start:line2;
+    grid-column-end: line3;
+    }
+.jaj{
+    grid-column-start:line3;
+    grid-column-end: line4;
+}
+
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    font-size: 27px;
+}
+    
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . .  "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: white;
+}
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white;
+}
+
+
